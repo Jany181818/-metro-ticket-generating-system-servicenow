@@ -1,1 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-09-12 17:40:50">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Station Management Update Set</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>64fcbe0f0fcb8310301f2fc530d1b247</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:46</sys_created_on>
+<sys_id>9f55379d0f5f4750301f2fc530d1b2e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:46</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pwd_process_4ff0c881bf220100710071a7bf0739fa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pwd_process"><pwd_process action="INSERT_OR_UPDATE"><active>false</active><allow_verification_choice>false</allow_verification_choice><apply_to_all_users>true</apply_to_all_users><auto_gen_password>true</auto_gen_password><change>false</change><cred_store display_value="Local ServiceNow Instance">6e51033fbf020100710071a7bf0739e0</cred_store><description>Service-desk process for the local ServiceNow as a stand-alone credential-store</description><display_captcha>false</display_captcha><display_password>true</display_password><email_password_reset_url>false</email_password_reset_url><enable_security_score_notification>false</enable_security_score_notification><enabled_on_chatbot>false</enabled_on_chatbot><enrollment_reminder>false</enrollment_reminder><expiration_run_period/><expiration_run_start/><expiration_run_time/><expiration_run_time_zone/><expiration_schedule_frequency/><expiration_warn_days/><identification_type/><label>Service-Desk Password Reset for Local ServiceNow</label><min_verifications>1</min_verifications><name>Service-Desk Password Reset for Local ServiceNow</name><password_needs_reset>true</password_needs_reset><post_processor/><process_owner/><public_access>false</public_access><public_url/><pwd_validity_days/><redirect_url/><reset>true</reset><run_dayofmonth/><run_dayofweek/><run_start/><run_time/><run_type/><security_score/><send_email>true</send_email><send_expiration_reminder>false</send_expiration_reminder><sender_alias/><sys_class_name>pwd_process</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2013-07-11 18:00:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4ff0c881bf220100710071a7bf0739fa</sys_id><sys_mod_count>11</sys_mod_count><sys_name>Service-Desk Password Reset for Local ServiceNow</sys_name><sys_package display_value="Password Reset" source="com.glideapp.password_reset">58917a8e18f632108bb255f46a373a4e</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>pwd_process_4ff0c881bf220100710071a7bf0739fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-07 07:00:44</sys_updated_on><unlock_account>true</unlock_account><url_suffix/><user_experience_entry/><user_experience_failure/><user_experience_footer/><user_experience_header/><user_experience_success/></pwd_process><sys_translated_text action="delete_multiple" query="documentkey=4ff0c881bf220100710071a7bf0739fa"/></record_update>]]></payload>
+<payload_hash>559401970</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>2355379d0f5f4750301f2fc530d1b2ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a07aab5d430000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Service-Desk Password Reset for Local ServiceNow</target_name>
+<type>Password Reset Process</type>
+<update_domain>global</update_domain>
+<update_guid>afe2bbebfe47c71012220612db6d6166</update_guid>
+<update_guid_history>afe2bbebfe47c71012220612db6d6166:559401970,d8836ca2ee120310d60c39fa842bd209:559401970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_fe6e5ed30f4b0710301f2fc530d1b278</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref/><question display_value="Mode of Payment">7d8ddedf0f0b0710301f2fc530d1b257</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-06 06:13:35</sys_created_on><sys_id>fe6e5ed30f4b0710301f2fc530d1b278</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Others</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_fe6e5ed30f4b0710301f2fc530d1b278</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-06 06:13:35</sys_updated_on><text>Others</text><value>others</value></question_choice><fx_price action="delete_multiple" query="id=fe6e5ed30f4b0710301f2fc530d1b278"/></record_update>]]></payload>
+<payload_hash>-234161123</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>235573110f9f4750301f2fc530d1b2f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a07559d23d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Others</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>fe8e9217504b0710883f3463b27285dd</update_guid>
+<update_guid_history>fe8e9217504b0710883f3463b27285dd:-234161123</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1fbd7a8f0fcb8310301f2fc530d1b2e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>1fbd7a8f0fcb8310301f2fc530d1b2e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_metro_station_s_details">9bbd7a8f0fcb8310301f2fc530d1b2df</sys_security_acl><sys_update_name>sys_security_acl_role_1fbd7a8f0fcb8310301f2fc530d1b2e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">4e4a3e830fcb8310301f2fc530d1b233</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1436367848</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>235573110f9f4750301f2fc530d1b2f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69a6d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>u_metro_station_s_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>1fbd7a8f80cb8310f7675397ebd6dbed</update_guid>
+<update_guid_history>1fbd7a8f80cb8310f7675397ebd6dbed:-1436367848</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_52d60b830f4f8310301f2fc530d1b272</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="No of Passengers">621683430f4f8310301f2fc530d1b2f2</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:31:27</sys_created_on><sys_id>52d60b830f4f8310301f2fc530d1b272</sys_id><sys_mod_count>2</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_52d60b830f4f8310301f2fc530d1b272</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:32:25</sys_updated_on><text>2</text><value>2</value></question_choice><fx_price action="delete_multiple" query="id=52d60b830f4f8310301f2fc530d1b272"/></record_update>]]></payload>
+<payload_hash>-697335691</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>2755379d0f5f4750301f2fc530d1b2ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071fc27d00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>2</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>802747c3044f83100d6db2be403778e5</update_guid>
+<update_guid_history>802747c3044f83100d6db2be403778e5:-697335691,03f603c33c4f8310f152e3a6e3566e9e:-1110241898,0ae68f83304f83104244487b934f4a33:1401018353</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_2b7566d30f8b0710301f2fc530d1b2ee</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Widget to display and manage functionalities&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;metro_qr_widget&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Metro QR Widget&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    data.qr_url = input ? input.qr_url : '';
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:45:41&lt;/sys_created_on&gt;&lt;sys_id&gt;2b7566d30f8b0710301f2fc530d1b2ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Metro QR Widget&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_2b7566d30f8b0710301f2fc530d1b2ee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:46:35&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div style="text-align:center; padding:25px; font-family:Arial, sans-serif;"&gt;
+  &lt;h3&gt;Your Metro Ticket QR Code&lt;/h3&gt;
+  &lt;img ng-src="{{data.qr_url}}" style="width:250px; height:250px; border:1px solid #ccc; padding:10px;" /&gt;
+  &lt;p&gt;Scan this QR code at the metro station gate&lt;/p&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2b7566d30f8b0710301f2fc530d1b2ee&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:45:36&lt;/sys_created_on&gt;&lt;sys_id&gt;7fd5a2170f8b0710301f2fc530d1b27a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:45:36&lt;/sys_updated_on&gt;&lt;table&gt;sp_widget&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>93820909</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>275573110f9f4750301f2fc530d1b2f2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0757805e70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Metro QR Widget</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>c616aa171e8b071060b0fe2616f84991</update_guid>
+<update_guid_history>c616aa171e8b071060b0fe2616f84991:93820909,30e5a217798b07101ee2a65d60a95684:1383367652</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_dbbd7a8f0fcb8310301f2fc530d1b21c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Metro Station’s Details">0a4a7a870fcb8310301f2fc530d1b23b</application><filter/><name>Metro Station’s Details</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_metro_station_s_details_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dbbd7a8f0fcb8310301f2fc530d1b21c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_dbbd7a8f0fcb8310301f2fc530d1b21c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><table>u_metro_station_s_details</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>1967206071</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>275573110f9f4750301f2fc530d1b2f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d699480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>13bd7a8fb0cb8310f164e8d9667d28cd</update_guid>
+<update_guid_history>13bd7a8fb0cb8310f164e8d9667d28cd:1967206071</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_10ebd69f0f0b0710301f2fc530d1b2fc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;amount_for_single_journey&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;500&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Amount for single journey&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:03:46&lt;/sys_created_on&gt;&lt;sys_id&gt;10ebd69f0f0b0710301f2fc530d1b2fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Amount for single journey&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_10ebd69f0f0b0710301f2fc530d1b2fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:03:46&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;6&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=10ebd69f0f0b0710301f2fc530d1b2fc"/&gt;&lt;fx_price action="delete_multiple" query="id=10ebd69f0f0b0710301f2fc530d1b2fc"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;10ebd69f0f0b0710301f2fc530d1b2fc&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:03:46&lt;/sys_created_on&gt;&lt;sys_id&gt;0b4c96df0f0b0710301f2fc530d1b2f9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:03:46&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;10ebd69f0f0b0710301f2fc530d1b2fc&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:03:46&lt;/sys_created_on&gt;&lt;sys_id&gt;034c96df0f0b0710301f2fc530d1b2f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:03:46&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1883851307</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>2b55379d0f5f4750301f2fc530d1b2ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a07550d5950000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Amount for single journey</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>434cd6df540b0710bb4542a1a161af0e</update_guid>
+<update_guid_history>434cd6df540b0710bb4542a1a161af0e:1883851307</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_metro_station_s_details_u_station_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_station_name" table="u_metro_station_s_details"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
 
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Station Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;true&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_station_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_metro_station_s_details&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 13:52:35&lt;/sys_created_on&gt;&lt;sys_id&gt;9fcdf64f0fcb8310301f2fc530d1b2ab&lt;/sys_id&gt;&lt;sys_name&gt;Station Name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_metro_station_s_details_u_station_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 13:55:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1659542947</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>2b5573110f9f4750301f2fc530d1b2f3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071da0b750000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>Metro Station’s Details.Station Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>569e7a03b30f831070d1333b52625472</update_guid>
+<update_guid_history>569e7a03b30f831070d1333b52625472:1659542947,340e36cf21cb8310884a48e62fc73daf:501752800,bddc7a0f3bcb831018e4a1f100b795ff:2106871696,e99b7e4b5bcb8310efbabb10d2da4730:-400116260</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_6f21c34b0fcb8310301f2fc530d1b261</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;starting_from&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;100&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Starting From&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference&gt;u_metro_station_s_details&lt;/reference&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:07:47&lt;/sys_created_on&gt;&lt;sys_id&gt;6f21c34b0fcb8310301f2fc530d1b261&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Starting From&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_6f21c34b0fcb8310301f2fc530d1b261&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:12:47&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;8&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6f21c34b0fcb8310301f2fc530d1b261"/&gt;&lt;fx_price action="delete_multiple" query="id=6f21c34b0fcb8310301f2fc530d1b261"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;6f21c34b0fcb8310301f2fc530d1b261&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:07:47&lt;/sys_created_on&gt;&lt;sys_id&gt;5b7187c70f0f8310301f2fc530d1b28d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:07:47&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;6f21c34b0fcb8310301f2fc530d1b261&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:07:47&lt;/sys_created_on&gt;&lt;sys_id&gt;9f7187c70f0f8310301f2fc530d1b28c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:07:47&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1716013674</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>2f55379d0f5f4750301f2fc530d1b2eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071ea2fb30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Starting From</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>e0a24f4b7d0f83101c5ed7bed1f5545f</update_guid>
+<update_guid_history>e0a24f4b7d0f83101c5ed7bed1f5545f:-1716013674,b5a10fc79e0f8310097c3cf401e736d5:-2114408510,6391cbc7860f8310bec1938d084dcbd4:372893275,5f7187c7ba0f8310e8b66638b4f52793:-120407267</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_9db507030f4f8310301f2fc530d1b2ec</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="Type of journey">4d848f4f0f0f8310301f2fc530d1b246</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:26:55</sys_created_on><sys_id>9db507030f4f8310301f2fc530d1b2ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Return journey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_9db507030f4f8310301f2fc530d1b2ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:26:55</sys_updated_on><text>Return journey</text><value>2</value></question_choice><fx_price action="delete_multiple" query="id=9db507030f4f8310301f2fc530d1b2ec"/></record_update>]]></payload>
+<payload_hash>-1847778326</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>2f5573110f9f4750301f2fc530d1b2ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071f71dcd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Return journey</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>ebd5cb03024f831026579b170a978117</update_guid>
+<update_guid_history>ebd5cb03024f831026579b170a978117:-1847778326</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_13bdba8f0fcb8310301f2fc530d1b200</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_metro_station_s_details</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_s_details</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>13bdba8f0fcb8310301f2fc530d1b200</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_13bdba8f0fcb8310301f2fc530d1b200</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1345589272</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>2f5573110f9f4750301f2fc530d1b2f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69b170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>u_metro_station_s_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>17bdba8f82cb831094fba9c81e3b3404</update_guid>
+<update_guid_history>17bdba8f82cb831094fba9c81e3b3404:1345589272</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_7d8ddedf0f0b0710301f2fc530d1b257</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;mode_of_payment&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;700&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Mode of Payment&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:11:26&lt;/sys_created_on&gt;&lt;sys_id&gt;7d8ddedf0f0b0710301f2fc530d1b257&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Mode of Payment&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_7d8ddedf0f0b0710301f2fc530d1b257&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:11:26&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;3&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7d8ddedf0f0b0710301f2fc530d1b257"/&gt;&lt;fx_price action="delete_multiple" query="id=7d8ddedf0f0b0710301f2fc530d1b257"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;7d8ddedf0f0b0710301f2fc530d1b257&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:11:26&lt;/sys_created_on&gt;&lt;sys_id&gt;db0e92d30f4b0710301f2fc530d1b24d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:11:26&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;7d8ddedf0f0b0710301f2fc530d1b257&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:11:26&lt;/sys_created_on&gt;&lt;sys_id&gt;130e92d30f4b0710301f2fc530d1b24d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:11:26&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>493447676</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>6355379d0f5f4750301f2fc530d1b2ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a07557d8cc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Mode of Payment</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>930e92d3694b07100ea1233c79e05d52</update_guid>
+<update_guid_history>930e92d3694b07100ea1233c79e05d52:493447676</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_d4078f830f4f8310301f2fc530d1b23b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref/><question display_value="No of Passengers">621683430f4f8310301f2fc530d1b2f2</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:32:12</sys_created_on><sys_id>d4078f830f4f8310301f2fc530d1b23b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>4</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_d4078f830f4f8310301f2fc530d1b23b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:33:27</sys_updated_on><text>4</text><value>4</value></question_choice><fx_price action="delete_multiple" query="id=d4078f830f4f8310301f2fc530d1b23b"/></record_update>]]></payload>
+<payload_hash>-491168011</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>635573110f9f4750301f2fc530d1b2f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071fd18100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>4</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>5b574fc3c54f831088f2521554e35ea9</update_guid>
+<update_guid_history>5b574fc3c54f831088f2521554e35ea9:-491168011,c51707c3594f8310d645a47659091833:-1729886632</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_17bd7a8f0fcb8310301f2fc530d1b2cf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_metro_station_s_details</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_s_details</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>17bd7a8f0fcb8310301f2fc530d1b2cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_17bd7a8f0fcb8310301f2fc530d1b2cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-532233162</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>635573110f9f4750301f2fc530d1b2f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d6998e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>u_metro_station_s_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>5bbd7a8ff9cb831091fd3afd7274b4d3</update_guid>
+<update_guid_history>5bbd7a8ff9cb831091fd3afd7274b4d3:-532233162</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_121543cf0f0f8310301f2fc530d1b215</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Type of journey">4d848f4f0f0f8310301f2fc530d1b246</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:24:42</sys_created_on><sys_id>121543cf0f0f8310301f2fc530d1b215</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Single journey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_121543cf0f0f8310301f2fc530d1b215</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:24:42</sys_updated_on><text>Single journey</text><value>1</value></question_choice><fx_price action="delete_multiple" query="id=121543cf0f0f8310301f2fc530d1b215"/></record_update>]]></payload>
+<payload_hash>-1325508872</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>6755379d0f5f4750301f2fc530d1b2ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071f517e10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Single journey</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>cf554bcf040f83100b4b9dfb38a5fbc6</update_guid>
+<update_guid_history>cf554bcf040f83100b4b9dfb38a5fbc6:-1325508872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_2d4083070f0f8310301f2fc530d1b2e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category display_value="Services">109f0438c6112276003ae8ac13e7009d</category><cc_render_type/><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Book A Metro Ticket</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_save_as_draft>false</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2d4083070f0f8310301f2fc530d1b2e1&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><recurring_price>0</recurring_price><request_method/><roles/><sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs><sc_ic_item_staging/><sc_ic_version/><sc_template/><secondary_owners/><short_description>A metro e-ticketing system allows passengers to purchase and use tickets digitally.</short_description><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:03:34</sys_created_on><sys_id>2d4083070f0f8310301f2fc530d1b2e1</sys_id><sys_mod_count>34</sys_mod_count><sys_name>Book A Metro Ticket</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_2d4083070f0f8310301f2fc530d1b2e1</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2026-09-06 07:10:45</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>34</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=2d4083070f0f8310301f2fc530d1b2e1"/><fx_price action="delete_multiple" query="id=2d4083070f0f8310301f2fc530d1b2e1"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="INR">INR</currency><field>price</field><id>2d4083070f0f8310301f2fc530d1b2e1</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:03:34</sys_created_on><sys_id>5180cb070f0f8310301f2fc530d1b26e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:03:34</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>recurring_price</field><id>2d4083070f0f8310301f2fc530d1b2e1</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:03:34</sys_created_on><sys_id>ed80cb070f0f8310301f2fc530d1b270</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:03:34</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>342707954</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>675573110f9f4750301f2fc530d1b2f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0758e26330000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Book A Metro Ticket</target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>40ab22d3e0cb07101fd7065982c8fd52</update_guid>
+<update_guid_history>40ab22d3e0cb07101fd7065982c8fd52:342707954,8d2b6e531bcb0710a48f291ed0531bb6:-1568670799,a59a6a132ecb0710c013d2994d04c1b4:814917744,16252a933e8b07104266004b5f210ed3:-1096461009,08142edf714b071069581fa1e4159915:1287127534,a6a3ae9f944b07101bfcfc763c3fb28e:-2108499368,31e0625ba04b0710f3829acce58b2433:275089175,752fd657414b07106c5f5ab27c8531b3:-1636289578,728e9217e04b0710fcbbd630e7b9c7da:747298965,d46e1ad3ce4b0710d64b2317723947d0:-1164079788,464e9ad3a94b0710494110bc378e7b0f:1219508755,530e92d3214b071042c845fffeceb54b:-691869998,8b9c92136b4b07102eed74b2f49229b7:1691718545,474c96dfce0b0710c9d5bef377b0bcf5:-219660208,cb574fc3184f8310152e1385ea52faa5:-2131038961,d0574bc3704f83106792979dab75c98d:-1231698567,042747c3224f8310ada281860d31e7e1:1151889976,491707c3154f831090d9c7745eafb22f:-759488777,de07c3434a4f83109082d5f7191c2b73:1624099766,cff603c30a4f83101984ed1eaebcef99:-287278987,8ee64f832c4f8310af1c5d37f84035fd:2096309556,d1e64f83e64f83103644fb60dfd7c2ed:184930803,76960783154f8310db396fd667ccab35:-1726447950,76464b43274f8310a17fee0d51b5162c:657140593,6fd5cb036f4f83101388bfd5d168da13:-1254238160,c3554bcffc0f83102fd89ce05d48b608:1509752588,4cd4c78f1f0f8310f3d30117d398049a:-401626165,0f648b4fc30f83101dd8fd589343bc1b:1981962378,e0a24f4b020f8310109ebb197a8e6d5a:70583625,f1a10fc7f70f8310285f2ec9e8336222:-1840795128,6f91cbc7620f8310a85717e951a7cace:542793415,df7187c7ee0f8310cbccc5d1d3a0908a:-1368585338,7df04f472c0f8310ccdb5db934a7029d:1015003205,b580cb07af0f831020e9fa030445b39c:-1077308073,ad80cb07b30f8310a45a1189576c898b:-1782847103</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_93bdba8f0fcb8310301f2fc530d1b206</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>93bdba8f0fcb8310301f2fc530d1b206</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_metro_station_s_details">13bdba8f0fcb8310301f2fc530d1b200</sys_security_acl><sys_update_name>sys_security_acl_role_93bdba8f0fcb8310301f2fc530d1b206</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">4e4a3e830fcb8310301f2fc530d1b233</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1268868876</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>675573110f9f4750301f2fc530d1b2f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69c170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>u_metro_station_s_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6bbdba8f19cb831095d43a33a483de1a</update_guid>
+<update_guid_history>6bbdba8f19cb831095d43a33a483de1a:1268868876</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_48ff52d70f4b0710301f2fc530d1b288</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;cat_variable&gt;IO:621683430f4f8310301f2fc530d1b2f2&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Fare auto-calculation&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   // Get Source and Destination
+    var source = g_form.getValue('starting_from');
+    var destination = g_form.getValue('going_to');
+
+    // Passenger Count
+    var numPassengers = Number(newValue);
+
+    // Get Journey Type
+    var journeyType = g_form.getValue('type_of_journey');
+
+    // Ameerpet → Madhapur
+    if (source == 'a7cc5f4683b60b143f98f065eeaad356' &amp;&amp;
+        destination == 'f4ec9f4683b60b143f98f065eeaad37a') {
+
+        if (journeyType == '1') {
+
+            // ₹30 per passenger
+            g_form.setValue(
+                'amount_for_single_journey',
+                numPassengers * 30
+            );
+
+            g_form.clearValue('amount_including_return');
+
+        } else if (journeyType == '2') {
+
+            // ₹60 per passenger
+            g_form.clearValue('amount_for_single_journey');
+
+            g_form.setValue(
+                'amount_including_return',
+                numPassengers * 60
+            );
+        }
+    }
+    // Ameerpet → LB Nagar
+    else if (source == 'a7cc5f4683b60b143f98f065eeaad356' &amp;&amp;
+             destination == 'f556f41e83724b143f98f065eeaad3e3') {
+        if (journeyType == '1') {
+            // ₹50 per passenger
+            g_form.setValue(
+                'amount_for_single_journey',
+                numPassengers * 50
+            );
+            g_form.clearValue('amount_including_return');
+        } else if (journeyType == '2') {
+            // ₹100 per passenger
+            g_form.clearValue('amount_for_single_journey');
+            g_form.setValue(
+                'amount_including_return',
+                numPassengers * 100
+            );
+        }
+    }
+    // Ameerpet → Kukatpally
+    else if (source == 'a7cc5f4683b60b143f98f065eeaad356' &amp;&amp;
+             destination == '0246305683b24b143f98f065eeaad34e') {
+        if (journeyType == '1') {
+            // ₹30 per passenger
+            g_form.setValue(
+                'amount_for_single_journey',
+                numPassengers * 30
+            );
+            g_form.clearValue('amount_including_return');
+        } else if (journeyType == '2') {
+            // ₹60 per passenger
+            g_form.clearValue('amount_for_single_journey');
+            g_form.setValue(
+                'amount_including_return',
+                numPassengers * 60
+            );
+        }
+    }
+    // Ameerpet → Jubilee Hills
+    else if (source == 'a7cc5f4683b60b143f98f065eeaad356' &amp;&amp;
+             destination == '1136fc1683b24b143f98f065eeaad33f') {
+        if (journeyType == '1') {
+            // ₹20 per passenger
+            g_form.setValue(
+                'amount_for_single_journey',
+                numPassengers * 20
+            );
+            g_form.clearValue('amount_including_return');
+        } else if (journeyType == '2') {
+            // ₹40 per passenger
+            g_form.clearValue('amount_for_single_journey');
+            g_form.setValue(
+                'amount_including_return',
+                numPassengers * 40
+            );
+        }
+    }
+    else {
+        // Clear amounts if no route matches
+        g_form.clearValue('amount_for_single_journey');
+        g_form.clearValue('amount_including_return');
+    }
+}
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:23:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;48ff52d70f4b0710301f2fc530d1b288&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Fare auto-calculation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_48ff52d70f4b0710301f2fc530d1b288&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:23:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>261592206</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:46</sys_created_on>
+<sys_id>6b55379d0f5f4750301f2fc530d1b2e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0756341710000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:46</sys_updated_on>
+<table/>
+<target_name>Fare auto-calculation</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>71e0625b2e4b0710025f05544cc2ee37</update_guid>
+<update_guid_history>71e0625b2e4b0710025f05544cc2ee37:261592206</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_4dd4ae530f8b0710301f2fc530d1b265</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;QR Generation&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    // 1. If the QR code modal was already confirmed, return true to let ServiceNow submit natively
+    if (g_scratchpad.qrConfirmed) {
+        return true;
+    }
+
+    var sysId = g_form.getUniqueValue();
+    var dummyURL = 'https://example.com/ticket?id=' + sysId;
+    var qrImageUrl = 'https://api.qrserver.com/v1/create-qr-code/?size=250x250&amp;data=' + encodeURIComponent(dummyURL);
+
+    spModal.open({
+        title: "Your Metro QR Ticket - click Checkout once more to confirm",
+        widget: "metro_qr_widget",
+        widgetInput: { qr_url: qrImageUrl }
+    }).then(function(confirmed) {
+        // 2. Set the flag on g_scratchpad so it survives the form submission cycle
+        g_scratchpad.qrConfirmed = true;
+        
+        // 3. Submit the form
+        g_form.submit();
+    });
+
+    // 4. Block default submit on first click to show the modal
+    return false;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:42:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4dd4ae530f8b0710301f2fc530d1b265&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;QR Generation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_4dd4ae530f8b0710301f2fc530d1b265&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 07:10:45&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;false&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1291553007</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>6b55379d0f5f4750301f2fc530d1b2e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0758e26640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>QR Generation</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>0cab22d368cb0710da322209db94a655</update_guid>
+<update_guid_history>0cab22d368cb0710da322209db94a655:1291553007,492b6e5343cb07105b17a7389e73a3ba:-342242062,6d9a6a1326cb0710f7c27ae1f1bf70c4:1640831359,d2252a93f98b0710c141644eba0507d7:1659253778</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_dbbd7a8f0fcb8310301f2fc530d1b217</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Metro Station’s Details">ce4a7a870fcb8310301f2fc530d1b21d</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Metro Station’s Details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_metro_station_s_details</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_metro_station_s_details_user</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dbbd7a8f0fcb8310301f2fc530d1b217</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_dbbd7a8f0fcb8310301f2fc530d1b217</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><timeline_page/><title>Metro Station’s Details</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1658005147</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>6b5573110f9f4750301f2fc530d1b2f2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d699220000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>9bbd7a8fbfcb8310f259b7343b5b3e1a</update_guid>
+<update_guid_history>9bbd7a8fbfcb8310f259b7343b5b3e1a:1658005147</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_53de32430f0f8310301f2fc530d1b221</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="53de32430f0f8310301f2fc530d1b221" sys_domain="global" table="u_metro_station_s_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_station_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:56:19</sys_created_on><sys_id>5fdef2430f0f8310301f2fc530d1b252</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_metro_station_s_details" sys_domain="global" view="Default view">53de32430f0f8310301f2fc530d1b221</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:56:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_metro_station_s_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:56:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>53de32430f0f8310301f2fc530d1b221</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_53de32430f0f8310301f2fc530d1b221</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:56:19</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-775100523</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>6b5573110f9f4750301f2fc530d1b2f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071db199c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>13def243b30f8310a9b2404291426d55</update_guid>
+<update_guid_history>13def243b30f8310a9b2404291426d55:-775100523,dbdef243f70f83107353ac0300c8d14d:1729109878</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_36feda170f4b0710301f2fc530d1b2d4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;enter_payment_mode&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;800&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Enter payment mode&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:16:15&lt;/sys_created_on&gt;&lt;sys_id&gt;36feda170f4b0710301f2fc530d1b2d4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Enter payment mode&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_36feda170f4b0710301f2fc530d1b2d4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:16:15&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;6&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=36feda170f4b0710301f2fc530d1b2d4"/&gt;&lt;fx_price action="delete_multiple" query="id=36feda170f4b0710301f2fc530d1b2d4"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;36feda170f4b0710301f2fc530d1b2d4&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:16:15&lt;/sys_created_on&gt;&lt;sys_id&gt;fd2fd6570f4b0710301f2fc530d1b2b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:16:15&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;36feda170f4b0710301f2fc530d1b2d4&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:16:15&lt;/sys_created_on&gt;&lt;sys_id&gt;352fd6570f4b0710301f2fc530d1b2b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:16:15&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>357545809</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>6f55379d0f5f4750301f2fc530d1b2ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0755c43d00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Enter payment mode</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>b12fd657804b0710642410c9a1ec36bb</update_guid>
+<update_guid_history>b12fd657804b0710642410c9a1ec36bb:357545809</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_metro_station_s_details_u_station_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_station_name" label="Station Name" language="en" table="u_metro_station_s_details"><sys_documentation action="INSERT_OR_UPDATE"><element>u_station_name</element><help/><hint/><label>Station Name</label><language>en</language><name>u_metro_station_s_details</name><plural>Station Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:52:36</sys_created_on><sys_id>b40e36cf0fcb8310301f2fc530d1b2ba</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Station Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_metro_station_s_details_u_station_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:55:10</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-103519997</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>6f5573110f9f4750301f2fc530d1b2f3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071da0b510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>Metro Station’s Details.Station Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>d69e7a030e0f831036f6b28c2a67836e</update_guid>
+<update_guid_history>d69e7a030e0f831036f6b28c2a67836e:-103519997,f80e36cff2cb8310c344419d74de41c9:1182056445,95dc7a0ffccb83100089b1dc2d1d819d:-1441443029,fd9b7e4bd9cb831074495ac7692b459b:-103519997</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_4d848f4f0f0f8310301f2fc530d1b246</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;type_of_journey&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;300&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Type of journey&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:22:19&lt;/sys_created_on&gt;&lt;sys_id&gt;4d848f4f0f0f8310301f2fc530d1b246&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Type of journey&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_4d848f4f0f0f8310301f2fc530d1b246&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:22:19&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;3&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4d848f4f0f0f8310301f2fc530d1b246"/&gt;&lt;fx_price action="delete_multiple" query="id=4d848f4f0f0f8310301f2fc530d1b246"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;4d848f4f0f0f8310301f2fc530d1b246&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:22:19&lt;/sys_created_on&gt;&lt;sys_id&gt;c4d4c78f0f0f8310301f2fc530d1b29d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:22:19&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;4d848f4f0f0f8310301f2fc530d1b246&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:22:19&lt;/sys_created_on&gt;&lt;sys_id&gt;0cd4c78f0f0f8310301f2fc530d1b29c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:22:19&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-95050955</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>a355379d0f5f4750301f2fc530d1b2eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071f2e7b30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Type of journey</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>00d4c78ff40f83100ed8b7f1490db8a2</update_guid>
+<update_guid_history>00d4c78ff40f83100ed8b7f1490db8a2:-95050955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_metro_station_s_details__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Metro Station’s Details" language="en" table="u_metro_station_s_details"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Metro Station’s Details</label><language>en</language><name>u_metro_station_s_details</name><plural>Metro Station’s Details</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:25</sys_created_on><sys_id>a3bdba8f0fcb8310301f2fc530d1b225</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_metro_station_s_details__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:25</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1685248564</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>a35573110f9f4750301f2fc530d1b2f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69e9a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>67bdba8f5bcb831088d06006d5920c55</update_guid>
+<update_guid_history>67bdba8f5bcb831088d06006d5920c55:1685248564,38dc3a0fc6cb8310ffec9982f06dec77:-1080199612,2a4a7a87e7cb83108661e6fa929dacfc:1685248564</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_a5f38b0f0f0f8310301f2fc530d1b2ce</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;going_to&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;200&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Going To&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference&gt;u_metro_station_s_details&lt;/reference&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:20:36&lt;/sys_created_on&gt;&lt;sys_id&gt;a5f38b0f0f0f8310301f2fc530d1b2ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Going To&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_a5f38b0f0f0f8310301f2fc530d1b2ce&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:20:36&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;8&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a5f38b0f0f0f8310301f2fc530d1b2ce"/&gt;&lt;fx_price action="delete_multiple" query="id=a5f38b0f0f0f8310301f2fc530d1b2ce"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;a5f38b0f0f0f8310301f2fc530d1b2ce&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:20:36&lt;/sys_created_on&gt;&lt;sys_id&gt;87648b4f0f0f8310301f2fc530d1b21e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:20:36&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;a5f38b0f0f0f8310301f2fc530d1b2ce&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:20:36&lt;/sys_created_on&gt;&lt;sys_id&gt;cb648b4f0f0f8310301f2fc530d1b21d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:20:36&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1334485744</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>a755379d0f5f4750301f2fc530d1b2ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071f155b50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Going To</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>8f648b4fb70f8310e72ebe61e08f6d22</update_guid>
+<update_guid_history>8f648b4fb70f8310e72ebe61e08f6d22:1334485744</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_efb6c7830f4f8310301f2fc530d1b2c2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="No of Passengers">621683430f4f8310301f2fc530d1b2f2</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:31:24</sys_created_on><sys_id>efb6c7830f4f8310301f2fc530d1b2c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_efb6c7830f4f8310301f2fc530d1b2c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:31:24</sys_updated_on><text>1</text><value>1</value></question_choice><fx_price action="delete_multiple" query="id=efb6c7830f4f8310301f2fc530d1b2c2"/></record_update>]]></payload>
+<payload_hash>1347064117</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>a75573110f9f4750301f2fc530d1b2f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071fb38560000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>51e64f83a44f8310e0e55e6c9b978cf1</update_guid>
+<update_guid_history>51e64f83a44f8310e0e55e6c9b978cf1:1347064117</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_5fbd7a8f0fcb8310301f2fc530d1b2ef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_metro_station_s_details</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_s_details</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>5fbd7a8f0fcb8310301f2fc530d1b2ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_5fbd7a8f0fcb8310301f2fc530d1b2ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-545637754</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>a75573110f9f4750301f2fc530d1b2f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69a9a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>u_metro_station_s_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>53bd7a8f89cb8310ed55308bb9fb40f4</update_guid>
+<update_guid_history>53bd7a8f89cb8310ed55308bb9fb40f4:-545637754</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_393e56d30f4b0710301f2fc530d1b270</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="Mode of Payment">7d8ddedf0f0b0710301f2fc530d1b257</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-06 06:12:52</sys_created_on><sys_id>393e56d30f4b0710301f2fc530d1b270</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Card</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_393e56d30f4b0710301f2fc530d1b270</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-06 06:12:52</sys_updated_on><text>Card</text><value>card</value></question_choice><fx_price action="delete_multiple" query="id=393e56d30f4b0710301f2fc530d1b270"/></record_update>]]></payload>
+<payload_hash>-377235003</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>ab55379d0f5f4750301f2fc530d1b2ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a075592a050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Card</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>9c6e5ed3a74b0710407ddcb89b62f071</update_guid>
+<update_guid_history>9c6e5ed3a74b0710407ddcb89b62f071:-377235003</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_2980cb070f0f8310301f2fc530d1b273</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Book A Metro Ticket">2d4083070f0f8310301f2fc530d1b2e1</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:03:34</sys_created_on><sys_id>2980cb070f0f8310301f2fc530d1b273</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Book A Metro Ticket</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_2980cb070f0f8310301f2fc530d1b273</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:03:34</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>-622913787</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>ab5573110f9f4750301f2fc530d1b2f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071e1be240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Service Catalog.Book A Metro Ticket</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>e980cb07080f8310fb32c727f718ab79</update_guid>
+<update_guid_history>e980cb07080f8310fb32c727f718ab79:-622913787</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d7bd7a8f0fcb8310301f2fc530d1b2d5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>d7bd7a8f0fcb8310301f2fc530d1b2d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_metro_station_s_details">17bd7a8f0fcb8310301f2fc530d1b2cf</sys_security_acl><sys_update_name>sys_security_acl_role_d7bd7a8f0fcb8310301f2fc530d1b2d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">4e4a3e830fcb8310301f2fc530d1b233</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-841368998</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>ab5573110f9f4750301f2fc530d1b2f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d699ef0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>u_metro_station_s_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>5bbd7a8fe8cb8310aa8564987ab983dd</update_guid>
+<update_guid_history>5bbd7a8fe8cb8310aa8564987ab983dd:-841368998</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_3ad366df0f4b0710301f2fc530d1b214</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Book A Metro Ticket">2d4083070f0f8310301f2fc530d1b2e1</catalog_item><catalog_variable>IO:36feda170f4b0710301f2fc530d1b2d4</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-06 06:37:42</sys_created_on><sys_id>3ad366df0f4b0710301f2fc530d1b214</sys_id><sys_mod_count>0</sys_mod_count><sys_name>enter_payment_mode</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_3ad366df0f4b0710301f2fc530d1b214</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-06 06:37:42</sys_updated_on><table/><ui_policy display_value="Fiels visibilty">b513aa5f0f4b0710301f2fc530d1b2c4</ui_policy><value/><value_action>ignore</value_action><variable>enter_payment_mode</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=3ad366df0f4b0710301f2fc530d1b214"/></record_update>]]></payload>
+<payload_hash>-593055266</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>af55379d0f5f4750301f2fc530d1b2e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0756fe5be0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>enter_payment_mode</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>4c142edf764b071087af3c54cbb2d519</update_guid>
+<update_guid_history>4c142edf764b071087af3c54cbb2d519:-593055266</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_f98db28f0fcb8310301f2fc530d1b298</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_data_interface>false</is_data_interface><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Metro Station’s Details</label><live_feed_enabled>false</live_feed_enabled><name>u_metro_station_s_details</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>f98db28f0fcb8310301f2fc530d1b298</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_f98db28f0fcb8310301f2fc530d1b298</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><update_access>false</update_access><user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">4e4a3e830fcb8310301f2fc530d1b233</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>369187433</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>af5573110f9f4750301f2fc530d1b2f2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69ed90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>a3bdba8f79cb83106f0341870485985d</update_guid>
+<update_guid_history>a3bdba8f79cb83106f0341870485985d:369187433</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_b513aa5f0f4b0710301f2fc530d1b2c4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:7d8ddedf0f0b0710301f2fc530d1b257=others^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Fiels visibilty&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:35:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b513aa5f0f4b0710301f2fc530d1b2c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Fiels visibilty&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_b513aa5f0f4b0710301f2fc530d1b2c4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:35:58&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1028261681</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>e355379d0f5f4750301f2fc530d1b2ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0756e50170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Fiels visibilty</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>faa3ae9f2e4b07106ae70567a912be9e</update_guid>
+<update_guid_history>faa3ae9f2e4b07106ae70567a912be9e:1028261681</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_metro_station_s_details_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_metro_station_s_details"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;enforce_dot_walk_cross_scope_access=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_metro_station_s_details&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 13:51:25&lt;/sys_created_on&gt;&lt;sys_id&gt;e7bdba8f0fcb8310301f2fc530d1b21c&lt;/sys_id&gt;&lt;sys_name&gt;u_metro_station_s_details&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_metro_station_s_details_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 13:51:25&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-444013947</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>e35573110f9f4750301f2fc530d1b2f3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69dec0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a7bdba8f53cb831041fe80e7cddd0e3e</update_guid>
+<update_guid_history>a7bdba8f53cb831041fe80e7cddd0e3e:-444013947,a1dc7a0fabcb8310667ba857d85afde3:482923321,624a7a87a6cb83105eed9f60f21c95f9:-444013947</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_621683430f4f8310301f2fc530d1b2f2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;no_of_passengers&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;400&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;No of Passengers&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:28:47&lt;/sys_created_on&gt;&lt;sys_id&gt;621683430f4f8310301f2fc530d1b2f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;No of Passengers&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_621683430f4f8310301f2fc530d1b2f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:30:09&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;5&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=621683430f4f8310301f2fc530d1b2f2"/&gt;&lt;fx_price action="delete_multiple" query="id=621683430f4f8310301f2fc530d1b2f2"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;621683430f4f8310301f2fc530d1b2f2&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:28:47&lt;/sys_created_on&gt;&lt;sys_id&gt;fe464b430f4f8310301f2fc530d1b22e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:28:47&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;621683430f4f8310301f2fc530d1b2f2&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-05 14:28:47&lt;/sys_created_on&gt;&lt;sys_id&gt;36464b430f4f8310301f2fc530d1b22e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-05 14:28:47&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-852187222</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>e755379d0f5f4750301f2fc530d1b2eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071fa12c80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>No of Passengers</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>76960783c34f831092002648907e013a</update_guid>
+<update_guid_history>76960783c34f831092002648907e013a:-852187222,be464b43974f8310f537552eb6994933:1541946697</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_63f1a53377451110cd1b756f1b5a9991</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Captures the last execution timestamp of the scheduled job 'Surface New Unconnected Content of Categories'</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>taxonomy.category.new_content_job_last_run</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-08 07:43:25</sys_created_on><sys_id>63f1a53377451110cd1b756f1b5a9991</sys_id><sys_mod_count>12</sys_mod_count><sys_name>taxonomy.category.new_content_job_last_run</sys_name><sys_package display_value="Content Taxonomy" source="com.snc.taxonomy">8153be0218ba32108bb255f46a373ad1</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_63f1a53377451110cd1b756f1b5a9991</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-06 07:00:45</sys_updated_on><type>date_format</type><value>2026-09-06</value><write_roles>maint</write_roles></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=63f1a53377451110cd1b756f1b5a9991"/></record_update>]]></payload>
+<payload_hash>57880970</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>e75573110f9f4750301f2fc530d1b2f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a07585086d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>taxonomy.category.new_content_job_last_run</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>1a592a1f5e8b0710174e011a6c47f29a</update_guid>
+<update_guid_history>1a592a1f5e8b0710174e011a6c47f29a:57880970,c261db3aee030310ab2361a44b899e6a:-829341876,0b73a4a288120310ac7614238b8127cf:-1642824632,8373a4a204120310ed2195f9a34162cb:-437767834</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_c06c9adf0f0b0710301f2fc530d1b28b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Book A Metro Ticket"&gt;2d4083070f0f8310301f2fc530d1b2e1&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;amount_including_return&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;600&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Amount including return&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:05:09&lt;/sys_created_on&gt;&lt;sys_id&gt;c06c9adf0f0b0710301f2fc530d1b28b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Amount including return&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_c06c9adf0f0b0710301f2fc530d1b28b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:05:09&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;6&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c06c9adf0f0b0710301f2fc530d1b28b"/&gt;&lt;fx_price action="delete_multiple" query="id=c06c9adf0f0b0710301f2fc530d1b28b"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;c06c9adf0f0b0710301f2fc530d1b28b&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:05:09&lt;/sys_created_on&gt;&lt;sys_id&gt;079c92130f4b0710301f2fc530d1b2ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:05:09&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;c06c9adf0f0b0710301f2fc530d1b28b&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-06 06:05:09&lt;/sys_created_on&gt;&lt;sys_id&gt;4b9c92130f4b0710301f2fc530d1b2b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-06 06:05:09&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>566959041</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>eb55379d0f5f4750301f2fc530d1b2ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a07552178c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Amount including return</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>879c9213844b0710796f9d529e7606be</update_guid>
+<update_guid_history>879c9213844b0710796f9d529e7606be:566959041</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_f8f6cf830f4f8310301f2fc530d1b26e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref/><question display_value="No of Passengers">621683430f4f8310301f2fc530d1b2f2</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:32:02</sys_created_on><sys_id>f8f6cf830f4f8310301f2fc530d1b26e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_f8f6cf830f4f8310301f2fc530d1b26e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:33:15</sys_updated_on><text>3</text><value>3</value></question_choice><fx_price action="delete_multiple" query="id=f8f6cf830f4f8310301f2fc530d1b26e"/></record_update>]]></payload>
+<payload_hash>1553231797</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>eb5573110f9f4750301f2fc530d1b2f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071fcea550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>3</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>10570fc30e4f8310ba602b1752785f56</update_guid>
+<update_guid_history>10570fc30e4f8310ba602b1752785f56:1553231797,5e07c343984f83108f7becfddc37c077:727419383</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9bbd7a8f0fcb8310301f2fc530d1b2df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_metro_station_s_details</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_s_details</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>9bbd7a8f0fcb8310301f2fc530d1b2df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9bbd7a8f0fcb8310301f2fc530d1b2df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1514722434</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>eb5573110f9f4750301f2fc530d1b2f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69a210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>u_metro_station_s_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>9fbd7a8f6ecb8310403a64414f27d3e3</update_guid>
+<update_guid_history>9fbd7a8f6ecb8310403a64414f27d3e3:1514722434</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_412e9e9b0f0fc310301f2fc530d1b281</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Mode of Payment">7d8ddedf0f0b0710301f2fc530d1b257</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-06 06:12:26</sys_created_on><sys_id>412e9e9b0f0fc310301f2fc530d1b281</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Upi</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_412e9e9b0f0fc310301f2fc530d1b281</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-06 06:12:26</sys_updated_on><text>Upi</text><value>upi</value></question_choice><fx_price action="delete_multiple" query="id=412e9e9b0f0fc310301f2fc530d1b281"/></record_update>]]></payload>
+<payload_hash>864981702</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>ef55379d0f5f4750301f2fc530d1b2ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a07558c53e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Upi</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>0a4e9ad35f4b071007f66f7414f91913</update_guid>
+<update_guid_history>0a4e9ad35f4b071007f66f7414f91913:864981702</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_6d80cb070f0f8310301f2fc530d1b27b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Book A Metro Ticket">2d4083070f0f8310301f2fc530d1b2e1</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 14:03:34</sys_created_on><sys_id>6d80cb070f0f8310301f2fc530d1b27b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Book A Metro Ticket</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_6d80cb070f0f8310301f2fc530d1b27b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 14:03:34</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-582555254</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>ef5573110f9f4750301f2fc530d1b2f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071e1be7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table/>
+<target_name>Services.Book A Metro Ticket</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>ad80cb07700f831063843a1147170981</update_guid>
+<update_guid_history>ad80cb07700f831063843a1147170981:-582555254</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_dfbd7a8f0fcb8310301f2fc530d1b2f5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-05 13:51:24</sys_created_on><sys_id>dfbd7a8f0fcb8310301f2fc530d1b2f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_metro_station_s_details">5fbd7a8f0fcb8310301f2fc530d1b2ef</sys_security_acl><sys_update_name>sys_security_acl_role_dfbd7a8f0fcb8310301f2fc530d1b2f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-05 13:51:24</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">4e4a3e830fcb8310301f2fc530d1b233</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1875286127</payload_hash>
+<remote_update_set display_value="Station Management Update Set">9f55379d0f5f4750301f2fc530d1b2e7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 17:40:47</sys_created_on>
+<sys_id>ef5573110f9f4750301f2fc530d1b2f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a071d69ae10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 17:40:47</sys_updated_on>
+<table>u_metro_station_s_details</table>
+<target_name>u_metro_station_s_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>dfbd7a8f24cb83104afed558fbce95fd</update_guid>
+<update_guid_history>dfbd7a8f24cb83104afed558fbce95fd:-1875286127</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
